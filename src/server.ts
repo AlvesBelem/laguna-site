@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import mustache from 'mustache-express';
 import path from "path";
 
-import mainRoutes from '../src/router'
+import mainRoutes from './router'
 
 dotenv.config();
 
@@ -23,4 +23,4 @@ server.use((req,res) => {
     res.render('pages/404');
 })
 
-server.listen(process.env.PORT);
+server.listen(process.env.PORT, () => console.log('Server is running on port ', process.env.PORT));
