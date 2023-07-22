@@ -1,6 +1,6 @@
 :root {
     --pagebg: #FFF;
-    --main: #102581;
+    --main: #1177AD;
     --bglink: rgba(0, 0, 0, 0.3);
     --darkbg: #FFF;
     --lightbg: #000;
@@ -19,6 +19,14 @@ body {
     max-width: 1100px;
     padding: 0 20px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
 }
 header {
     font-size: 28px;
