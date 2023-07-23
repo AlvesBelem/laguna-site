@@ -141,6 +141,7 @@ footer {
 
     header h1 {
         font-size: 80%;
+        text-align: center;
     }
 }
 
@@ -150,7 +151,8 @@ footer {
     }
 
     header h1 {
-        font-size: 75%;
+        font-size: 70%;
+        text-align: center;
     }
 }
 
@@ -167,7 +169,8 @@ footer {
     }
 
     header h1 {
-        font-size: 70%;
+        font-size: 60%;
+        text-align: center;
     }
 }
 
@@ -186,6 +189,7 @@ footer {
     }
 
     header h1 {
-        font-size: 60%;
+        font-size: 50%;
+        text-align: center;
     }
 }
