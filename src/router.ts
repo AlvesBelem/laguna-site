@@ -7,7 +7,7 @@ const router = Router();
 router.get('/', PageController.home);
 router.get('/products', PageController.products);
 router.get('/fishes', PageController.fishes);
-router.get('/store', PageController.store);
+
 
 router.get('/search', SearchController.search);
 
