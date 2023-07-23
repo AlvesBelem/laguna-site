@@ -20,58 +20,36 @@ const data: AllItens[] = [
             type: 'fish',
             image: './imgNew/acara.jpg',
             name: 'Acará Bandeira',
-            color: 'Preto e Brnaco ',
+            color: 'Preto e Branco ',
             description: '(Pterophyllum scalare) - mérica do Sul; bacia do rio Amazonas, ao longo dos rios Ucayali, Solimões e Amazonas; rios do Amapá (Brasil), Rio Oiapoque, na Guiana Francesa; rio Essequibo na Guiana. — Países: Brasil, Colômbia, Guiana Francesa, Guiana e Peru. Introduzido e estabelecido no Fiji e Suriname.',
             price: 'R$ 20,00'
         },
         {
             type: 'fish',
+            image: './imgNew/neon.jpg',
+            name: 'Neon',
+            color: 'Azul e Vermelho ',
+            description: '(Pterophyllum scalare) - mérica do Sul; bacia do rio Amazonas, ao longo dos rios Ucayali, Solimões e Amazonas; rios do Amapá (Brasil), Rio Oiapoque, na Guiana Francesa; rio Essequibo na Guiana. — Países: Brasil, Colômbia, Guiana Francesa, Guiana e Peru. Introduzido e estabelecido no Fiji e Suriname.',
+            price: 'R$ 20,00'
+        },
+
+        {
+            type: 'fish',
             image: './imgNew/acara.jpg',
             name: 'Acará Bandeira',
-            color: 'Preto e Brnaco ',
+            color: 'Preto e Branco ',
             description: '(Pterophyllum scalare) - mérica do Sul; bacia do rio Amazonas, ao longo dos rios Ucayali, Solimões e Amazonas; rios do Amapá (Brasil), Rio Oiapoque, na Guiana Francesa; rio Essequibo na Guiana. — Países: Brasil, Colômbia, Guiana Francesa, Guiana e Peru. Introduzido e estabelecido no Fiji e Suriname.',
             price: 'R$ 20,00'
         },
         {
             type: 'fish',
-            image: './imgNew/acara.jpg',
-            name: 'Acará Bandeira',
-            color: 'Preto e Brnaco ',
+            image: './imgNew/neon.jpg',
+            name: 'Neon',
+            color: 'Azul e Vermelho ',
             description: '(Pterophyllum scalare) - mérica do Sul; bacia do rio Amazonas, ao longo dos rios Ucayali, Solimões e Amazonas; rios do Amapá (Brasil), Rio Oiapoque, na Guiana Francesa; rio Essequibo na Guiana. — Países: Brasil, Colômbia, Guiana Francesa, Guiana e Peru. Introduzido e estabelecido no Fiji e Suriname.',
             price: 'R$ 20,00'
         },
-        {
-            type: 'fish',
-            image: './imgNew/acara.jpg',
-            name: 'Acará Bandeira',
-            color: 'Preto e Brnaco ',
-            description: '(Pterophyllum scalare) - mérica do Sul; bacia do rio Amazonas, ao longo dos rios Ucayali, Solimões e Amazonas; rios do Amapá (Brasil), Rio Oiapoque, na Guiana Francesa; rio Essequibo na Guiana. — Países: Brasil, Colômbia, Guiana Francesa, Guiana e Peru. Introduzido e estabelecido no Fiji e Suriname.',
-            price: 'R$ 20,00'
-        },
-        {
-            type: 'fish',
-            image: './imgNew/acara.jpg',
-            name: 'Acará Bandeira',
-            color: 'Preto e Brnaco ',
-            description: '(Pterophyllum scalare) - mérica do Sul; bacia do rio Amazonas, ao longo dos rios Ucayali, Solimões e Amazonas; rios do Amapá (Brasil), Rio Oiapoque, na Guiana Francesa; rio Essequibo na Guiana. — Países: Brasil, Colômbia, Guiana Francesa, Guiana e Peru. Introduzido e estabelecido no Fiji e Suriname.',
-            price: 'R$ 20,00'
-        },
-        {
-            type: 'fish',
-            image: './imgNew/acara.jpg',
-            name: 'Acará Bandeira',
-            color: 'Preto e Brnaco ',
-            description: '(Pterophyllum scalare) - mérica do Sul; bacia do rio Amazonas, ao longo dos rios Ucayali, Solimões e Amazonas; rios do Amapá (Brasil), Rio Oiapoque, na Guiana Francesa; rio Essequibo na Guiana. — Países: Brasil, Colômbia, Guiana Francesa, Guiana e Peru. Introduzido e estabelecido no Fiji e Suriname.',
-            price: 'R$ 20,00'
-        },
-        {
-            type: 'fish',
-            image: './imgNew/acara.jpg',
-            name: 'Acará Bandeira',
-            color: 'Preto e Brnaco ',
-            description: '(Pterophyllum scalare) - mérica do Sul; bacia do rio Amazonas, ao longo dos rios Ucayali, Solimões e Amazonas; rios do Amapá (Brasil), Rio Oiapoque, na Guiana Francesa; rio Essequibo na Guiana. — Países: Brasil, Colômbia, Guiana Francesa, Guiana e Peru. Introduzido e estabelecido no Fiji e Suriname.',
-            price: 'R$ 20,00'
-        },
+        
 
         {
             type: 'product',

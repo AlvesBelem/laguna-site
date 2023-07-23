@@ -25,7 +25,7 @@ export const products = (req: Request, res: Response) => {
         res.render('pages/page', {
             menu: createMenuObject('product'),
             banner: {
-                title: 'Nossos Produtos !',
+                title: 'Nossos Produtos',
                 background: './imgNew/mix-products.jpg'
         },
         list
@@ -38,7 +38,7 @@ export const fishes = (req: Request, res: Response) => {
         res.render('pages/page', {
             menu: createMenuObject('fish'),
             banner: {
-                title: 'Nossos Peixes !',
+                title: 'Nossos Peixes',
                 background: './imgNew/fishes_page.jpg'
         },
         list
