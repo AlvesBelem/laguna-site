@@ -45,15 +45,4 @@ export const fishes = (req: Request, res: Response) => {
     });
 };
 
-export const store = (req: Request, res: Response) => {
-
-    let list = AllItens.getFromType('store');
-        res.render('pages/page', {
-            menu: createMenuObject('store'),
-            banner: {
-                title: 'Nossa Loja !',
-                background: 'banner_dog.jpg'
-        },
-        list
-    });
-};
+// 

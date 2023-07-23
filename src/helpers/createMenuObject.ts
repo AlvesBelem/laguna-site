@@ -1,12 +1,12 @@
 
-type MenuOptions = '' | 'all' | 'product' | 'fish' | 'store' ;
+type MenuOptions = '' | 'all' | 'product' | 'fish'  ;
 
 export const createMenuObject = (activeMenu: MenuOptions) => {
     let returnObject = {
         all: false,
         product: false,
         fish: false,
-        store: false
+        
     };
 
     if(activeMenu !== '') {
