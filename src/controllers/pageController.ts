@@ -12,7 +12,7 @@ export const home = (req: Request, res: Response) => {
         menu: createMenuObject('all'),
         banner: {
             title: 'Explore nossos Itens !',
-            background: 'allanimals.jpg'
+            background: './imgNew/banner_all.jpg'
         },
         list
     });
@@ -26,7 +26,7 @@ export const products = (req: Request, res: Response) => {
             menu: createMenuObject('product'),
             banner: {
                 title: 'Nossos Produtos !',
-                background: 'banner_cat.jpg'
+                background: './imgNew/mix-products.jpg'
         },
         list
     });
@@ -39,7 +39,7 @@ export const fishes = (req: Request, res: Response) => {
             menu: createMenuObject('fish'),
             banner: {
                 title: 'Nossos Peixes !',
-                background: 'banner_fish.jpg'
+                background: './imgNew/fishes_page.jpg'
         },
         list
     });
