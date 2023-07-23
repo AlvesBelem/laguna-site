@@ -1,4 +1,4 @@
-# laguna-site
+# laguna Aquarium Vitrine Digital
 Projeto feito em Node + Typscript
 
 ### Pré-requisitos globais:
