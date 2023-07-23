@@ -138,11 +138,19 @@ footer {
     .list {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    header h1 {
+        font-size: 80%;
+    }
 }
 
 @media (max-width: 768px) {
     .list {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    header h1 {
+        font-size: 75%;
     }
 }
 
@@ -156,6 +164,10 @@ footer {
     }
     .list {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    header h1 {
+        font-size: 70%;
     }
 }
 
@@ -171,5 +183,9 @@ footer {
     }
     .list {
         grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 60%;
     }
 }
