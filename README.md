@@ -10,3 +10,5 @@ Projeto feito em Node + Typscript
 
 ### Rodar o projeto:
 `yarn run start-dev`
+
+![image](https://github.com/AlvesBelem/laguna-site/assets/59449334/7196ce15-b5a8-4d8a-87f4-9923a665dbba)
