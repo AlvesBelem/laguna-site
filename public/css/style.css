@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-    width: 120px;
+    width: 130px;
     height: auto;
 }
 header {
@@ -45,6 +45,11 @@ header input {
     font-size: 14px;
     width: 100%;
     max-width: 200px;
+}
+
+header h1 {
+    color: var(--main);
+    font-size: 3rem;
 }
 nav {
     background: var(--main);
